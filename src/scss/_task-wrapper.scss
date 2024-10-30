@@ -1,0 +1,47 @@
+.task-wrapper{
+    width: 98vw;
+    height: calc(100vh - 80px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Simple shadow */
+    margin: 0;
+    float: right;
+    .task-controls{
+     
+        background-color: #084191;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Simple shadow */
+        padding:1rem; 
+        display: flex;
+        justify-content: space-between;
+        .task-parent-creation{
+
+        }
+        .task-parent-filter{
+
+        }
+        .task-parent-count{
+            display: flex;
+            color: white;
+        }
+    }
+    .task-content{
+        padding-right: 1rem;
+        .parent-root{
+            background-color: white;
+            margin-bottom: 1rem;
+            padding: 0.5rem 0.5rem 0.5rem;
+            .accordtion-btn{
+                margin: 0;
+                padding: 0;
+            }
+            .test{
+                display: inline-flex;
+                flex-direction: row;
+            }   
+            .btn{
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+        }
+
+    }
+}

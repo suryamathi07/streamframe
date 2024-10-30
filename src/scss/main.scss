@@ -1,0 +1,20 @@
+@import '_header.scss'; 
+@import '_task-wrapper.scss'; 
+@import '_pagination.scss'; 
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+body, html {
+    height: 100%;
+}
+body{
+    // background-color: #3e96db;
+    // background-color: #0a4daa;
+    background: rgb(11,98,220);
+    background: linear-gradient(117deg, rgba(11,98,220,1) 0%, rgba(9,54,116,1) 100%);
+    overflow-y: auto;
+    position: relative;
+    z-index: 0;
+}
